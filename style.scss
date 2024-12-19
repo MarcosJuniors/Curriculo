@@ -1,0 +1,77 @@
+/* Reset */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Global */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Header */
+header {
+    text-align: center;
+    background-color: #e53939;
+    color: #ffffff;
+    padding: 20px;
+    width: 100%;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+/* Main */
+main {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #e53939;
+    border-radius: 8px;
+}
+
+h2 {
+    color: #e53939;
+    margin-bottom: 10px;
+}
+
+#photo img {
+    max-width: 200px; /* Largura máxima */
+    height: auto; /* Proporção automática */
+    border-radius: 50%; /* Imagem redonda */
+    border: 4px solid #e53939; /* Borda */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra leve */
+    display: block; /* Centraliza imagem */
+    margin: 0 auto; /* Centraliza no contêiner */
+    background-image: url(./imagens/Screenshot_20241218-231704.png);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px;
+    width: 100%;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    main {
+        width: 95%;
+    }
+}
